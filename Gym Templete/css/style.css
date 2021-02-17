@@ -1,0 +1,575 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: .5;
+  height: 4960px;
+}
+.container {
+  width: 1175px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+hr {
+  color: #909090;
+  width: 80%;
+}
+/* Header*/
+header {
+  background-color: #171819;
+  padding: 10px 0;
+}
+nav .nav-logo {
+  width: 30%;
+  float: left;
+}
+nav .nav-logo h1 {
+  color: #ffffff;
+  font-size: 200%;
+  display: inline-block;
+  padding: 15px;
+}
+nav .nav-logo h1:hover {
+  cursor: pointer;
+}
+nav .nav-logo span {
+  color: #F13A11;
+}
+nav .nav-links {
+  width: 55%;
+  float: left;
+}
+nav .nav-links ul {
+  margin-left: 19%;
+}
+nav .nav-links ul li a,
+nav .nav-social ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 110%;
+  font-weight: 400;
+}
+nav .nav-social {
+  width: 15%;
+  float: left;
+}
+nav .nav-social ul li a {
+  font-size: 120%;
+}
+nav .nav-links ul,
+nav .nav-social ul {
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 0;
+} 
+nav .nav-links ul li,
+nav .nav-social ul li {
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+nav .nav-links ul li a:hover,
+nav .nav-social ul li a:hover {
+  color: #F13A11;
+  cursor: pointer;
+}
+.nav-social ul {
+  padding: 0 15px;
+}
+/*main-content*/
+.info {
+  position: relative;
+  background-image: url("../images/1/muscular-sportsman-building-biceps-with-dumbbell\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.contain {
+  position: absolute;
+  top: 28%;
+  left: 2%;
+  text-align: center;
+}
+.contain p {
+  color: #909090;
+  font-size: 150%;
+  padding: 10px;
+  margin: 0 10px;
+  letter-spacing: .5;
+}
+.contain h2 {
+  color: #ffffff;
+  font-size: 330%;
+  padding: 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 1;
+}
+.contain button {
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 100%;
+  font-weight: 600;
+  color: #ffffff;
+  background: none;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  margin-left: 1.5%;
+}
+.contain .button1:hover {
+  color: #F13A11;
+  cursor: pointer;
+}
+.contain .button2{
+  color: #F13A11;
+  border: 1px solid #F13A11;
+}
+.contain .button2:hover {
+  color: #F13A11;
+  background: #ffffff;
+  cursor: pointer;
+}
+/*Feature Section*/
+.feature {
+  background: #171819 !important;
+  background-color: #171819 !important;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+.containn {
+  width: 960px;
+  margin: 0 auto;
+}
+.feature .work-hour,
+.feature .work-pic {
+  float: left;
+  width: 50%;
+}
+.feature .work-hour h2,
+.feature .about h2 {
+  color: #ffffff;
+  font-size: 200%;
+  margin-bottom: 7%;
+  padding: 4% 8px;
+  border: 1px solid #f13a11;
+  width: 70%;
+}
+.feature .work-hour p,
+.feature .about p {
+  color: #ffffff;
+  font-size: 110%;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.feature .work-hour span {
+  display: block;
+  color: #909090;
+  margin-bottom: 5%;
+  font-size: 110%;
+}
+.feature .work-hour .time {
+  color: #909090;
+  font-weight: 300;
+}
+.feature .about h2 {
+  margin-top: 9%;
+}
+.feature .about p {
+  line-height: 1.6;
+  color: #909090;
+  font-weight: 400;
+  width: 80%;
+}
+.work-pic {
+  border-left: 2px solid #909090;
+}
+.work-pic img {
+  width: 100%;
+  padding-left: 20% ;
+}
+.about-button {
+  background-color: #F13A11;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-size: 120%;
+  padding: 3% 8%;
+  text-transform: uppercase;
+  border-radius: 1%;
+  width: 80%;
+  font-weight: 500;
+}
+.about-button:hover{
+  background-color: #ffffff;
+  color: #F13A11;
+  cursor: pointer;
+  border-radius: 1%;
+}
+/*about-section*/
+.about-section {
+  background-color: #F9F9F9 !important;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+.about-section .left-row,
+.about-section .right-row {
+  float: left;
+  width: 50%;
+  padding: 5% 0;
+  overflow: hidden;
+}
+.about-section .header-left-row {
+  color: #212529;
+  font-size: 200%;
+  margin: 10% 0 4%;
+  padding: 4% 0;
+  font-weight: bolder;
+}
+.left-row span {
+  color: #404040;
+  font-weight: 500;
+}
+.left-row span:hover {
+  cursor: pointer;
+  color: #f13a11;
+}
+.about-section p {
+  font-size: 110%;
+  line-height: 1.3;
+  width: 73%;
+  color: #909090;
+}
+.right-row .one {
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+  overflow: hidden;
+}
+.right-row .one img {
+  width: 90%;
+}
+.right-row .one .team-info {
+  background-color: #ffffff;
+  width: 90%;
+  padding: 3%;
+}
+.team-info .information {
+  float: left;
+  width: 70%;
+  overflow: hidden;
+}
+.team-info  .icon {
+  float: left;
+  width: 30%;
+  overflow: hidden;
+}
+.team-info h2 {
+  color: #212529;
+  font-size: 200%;
+  padding: 5% 5%;
+}
+.information p {
+  font-size: 110%;
+  line-height: 1.3;
+  color: #909090;
+  padding: 5% 9%;
+  width: 100%;
+  font-size: 111%;
+}
+.team-info .icon ul {
+  list-style: none;
+  margin-left: 40%;
+}
+.team-info .icon ul li{
+  font-size: 150%;
+  padding: 10% 0;
+}
+.team-info .icon ul li:hover{
+  cursor: pointer;
+  color: #F13A11;
+}
+/*class-section*/
+.class-section .row {
+  padding: 3rem 0;
+}
+.class-section .row .p-class {
+  color: #909090;
+  font-size: 150%;
+  padding: 3% 0 0;
+}
+.class-section .infor {
+  text-align: center;
+}
+.class-section .infor h3 {
+  color: #171819;
+  font-size: 200%;
+  padding: 3% 0 5%;
+}
+.classes .container {
+  width: 1175px;
+  margin: 0 auto;
+}
+.classes .tem {
+  float: left;
+  width: 30%;
+  margin: 1%;
+  padding: 3%;
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #888888;
+}
+.classes .tem  img{
+  width: 100%;
+}
+.classes .class-inf {
+  margin: 10% 0;
+}
+.classes .tem  h3{
+  color: #212529;
+  font-size: 200%;
+  padding: 3% 0 5%;
+  margin: 5% 0;
+}
+.classes .tem  p{
+  color: #909090;
+  padding: 2% 0;
+  font-weight: bold;
+}
+.classes .tem span {
+  color: #212529;
+}
+.tem .all-info {
+  overflow: hidden;
+}
+.tem .all-info .class-inf{
+  float: left;
+  width: 60%;
+  overflow: hidden;
+}
+.tem .all-info .price{
+  float: right;
+  width: 30%;
+}
+.tem .all-info .price h2{
+  color: #ffffff;
+  background-color: #F13A11;
+  font-size: 110%;
+  padding: 20%;
+  margin-top: 30%;
+  margin-left: 9%;
+  border-radius: 50px;
+  text-align: center;
+}
+.tem .all-info .price h2:hover {
+  color: #F13A11;
+  background-color: #e9e9e950;
+  cursor: pointer;
+}
+.tem .paragraph {
+  line-height: 1.3;
+  width: 73%;
+  color: #909090 !important;
+  padding: 1% 0;
+  font-weight: 400 !important;
+}
+/*table-section*/
+.table-section {
+  background-color: #171819;
+}
+.table-section .row {
+  margin: 10% 0;
+  padding: 8% 0 10%;
+}
+.table-section .table-info p {
+  color: #909090;
+  font-size: 150%;
+  padding: 3% 0 0;
+}
+.table-section .table-info {
+  text-align: center;
+}
+.table-section .table-info h2 {
+  color: #ffffff;
+  font-size: 200%;
+  padding: 3% 0 5%;
+}
+table {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  text-align: center;
+}
+.table td, .table th {
+  padding: 1rem;
+  line-height: 1.6;
+  border: 1px solid #212122;
+}
+table span {
+  display: block;
+  color: #909090;
+}
+.table  th, 
+tr td:first-child {
+  background: #f13a11;
+  border: 1px solid #212122;
+  color:#ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+/*contact-section*/
+.contact-section  {
+  padding: 0  0 45% 0;
+}
+.contact-section .contact {
+  float: left;
+  width: 50%;
+}
+.contact-section .contact h2 {
+  color: #212529;
+  font-size: 200%;
+  margin: 10% 0 4%;
+  padding: 4% 0;
+  font-weight: bolder;
+}
+.contact-section .contact form input,textarea {
+  display: block;
+  padding: 2%;
+  width: 80%;
+  margin: 5% 0; 
+  font-size: 110%;
+  border: 1px solid #ced4da;
+}
+.contact-section .contact input[type="submit"] {
+  color: #ffffff;
+  background-color: #171819;
+}
+.contact-section .contact input[type="submit"]:hover {
+  color: #ffffff;
+  background-color: #F13A11;
+  cursor: pointer;
+}
+.contact-section .contact p {
+  color: #666262;
+  font-size: 110%;
+  margin: 0 0 4%;
+  width: 70%;
+  line-height: 1.6;
+}
+.contact-section .contact p i{
+  color: #F13A11;
+  padding: 0 3%;
+  font-size: 150%;
+}
+/*footer*/
+footer {
+  background-color: #404040;
+  color: #e7e3e3;
+  overflow: hidden;
+}
+footer .row {
+  padding: 5rem;
+}
+footer .company-info {
+  float: left;
+  width: 50%;
+  line-height: 1.6;
+}
+.company-info p {
+  letter-spacing: 1.6;
+}
+.company-info i {
+  color: #F13A11;
+  padding: 0 5% 1% 0;
+}
+.line {
+  margin: 5% 0;
+  width: 100%;
+}
+.company-info-h2 {
+  font-size: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.company-info-h2 span {
+  color: #F13A11;
+  border-bottom: 2px solid;
+}
+.company-info-h2 span:hover {
+  color: #fff;
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
+.contact-mohamed {
+  text-align: center;
+  margin-top: 5%;
+}
+.contact-mohamed .my-social {
+  position: relative;
+}
+.contact-mohamed .my-social ul {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+.contact-mohamed .my-social ul li {
+  position: relative;
+  list-style: none;
+  float: left;
+}
+.contact-mohamed .my-social ul li a{
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+  line-height: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: width 0.5s;
+  box-sizing: border-box;
+}
+.contact-mohamed .my-social ul li:hover a {
+  width: 120px;
+}
+.contact-mohamed .my-social ul li a .fa {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+  border-right: 2px solid #fff;
+}
+.contact-mohamed .my-social ul li a span {
+  color: #fff;
+  padding-left: 5px;
+}
+.contact-mohamed .my-social ul li:nth-child(1) a {
+  background: #3b5999;
+}
+.contact-mohamed .my-social ul li:nth-child(2) a {
+  background: #55acee;
+}
+.contact-mohamed .my-social ul li:nth-child(3) a {
+  background: #0077B5;
+}
+.contact-mohamed .my-social ul li:nth-child(4) a {
+  background: #e4405f;
+}
